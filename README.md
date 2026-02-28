@@ -3,6 +3,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](#)
 
+  _________                          _________________ __________ 
+ /   _____/__ ________   ___________/   _____/\______ \\______   \
+ \_____  \|  |  \____ \_/ __ \_  __ \_____  \  |    |  \|     ___/
+ /        \  |  /  |_> >  ___/|  | \/        \ |    `   \    |    
+/_______  /____/|   __/ \___  >__| /_______  //_______  /____|    
+        \/      |__|        \/             \/         \/          
+        
 Learning-accelerated semidefinite programming for control-oriented and general standard-form SDPs, with:
 - Infeasible predictor-corrector IPM for standard-form SDPs
 - L2WS warm-start models (Cholesky or legacy diagonal)
