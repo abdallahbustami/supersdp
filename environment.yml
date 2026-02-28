@@ -1,0 +1,20 @@
+name: l2ws
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - numpy
+      - scipy
+      - torch
+      - torchvision
+      - torchaudio
+      - tqdm
+      - matplotlib
+      - pandas
+      - pyyaml
+      - cvxpy
+      - scs
+      - sdpa-python
+      - mosek

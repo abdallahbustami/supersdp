@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(source l2ws_py313/bin/activate:*)",
+      "Bash(python:*)",
+      "Bash(source l2ws_env/bin/activate:*)",
+      "Bash(PYTHONPATH=src python:*)",
+      "Bash(PYTHONPATH=src timeout 180 python:*)",
+      "Bash(tee:*)",
+      "Bash(pip show:*)",
+      "Bash(pip install:*)",
+      "Bash(chmod:*)",
+      "Bash(ls:*)",
+      "Bash(pip search:*)",
+      "Bash(cat:*)",
+      "Bash(brew install:*)",
+      "Bash(CVXOPT_SUITESPARSE_SRC_DIR=/opt/homebrew/Cellar/suite-sparse/7.12.1 CVXOPT_SUITESPARSE_INC_DIR=/opt/homebrew/Cellar/suite-sparse/7.12.1/include CVXOPT_SUITESPARSE_LIB_DIR=/opt/homebrew/Cellar/suite-sparse/7.12.1/lib pip install:*)",
+      "Bash(CVXOPT_BUILD_FFTW=0 CVXOPT_BUILD_GLPK=0 CVXOPT_BUILD_GSL=0 CVXOPT_BUILD_DSDP=0 pip install:*)",
+      "Bash(CVXOPT_SUITESPARSE_INC_DIR=/opt/homebrew/Cellar/suite-sparse/7.12.1/include/suitesparse pip install:*)",
+      "Bash(CVXOPT_SUITESPARSE_INC_DIR=/opt/homebrew/Cellar/suite-sparse/7.12.1/include/suitesparse CVXOPT_SUITESPARSE_LIB_DIR=/opt/homebrew/Cellar/suite-sparse/7.12.1/lib pip install:*)",
+      "Bash(pytest:*)"
+    ]
+  }
+}
