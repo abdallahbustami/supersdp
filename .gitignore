@@ -16,5 +16,6 @@ results/
 *.png
 .idea/
 .vscode/
+.claude/
 COMPlib_r1_1/
 paper.tex

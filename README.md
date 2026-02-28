@@ -1,10 +1,9 @@
-# L2WS SDP Toolbox
+# SuperSDP
 
-[![CI](https://img.shields.io/badge/CI-placeholder-lightgrey)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](#)
 
-Learning to Warm-Start Interior Point Methods for semidefinite programs (SDPs), with:
+Learning-accelerated semidefinite programming for control-oriented and general standard-form SDPs, with:
 - Infeasible predictor-corrector IPM for standard-form SDPs
 - L2WS warm-start models (Cholesky or legacy diagonal)
 - Optional GNN backbone (`torch-geometric`) for system-structured inputs
@@ -132,6 +131,9 @@ Core configs:
 - `TrainingConfig(..., backbone="mlp"|"gnn")`
 - `SolverConfig(mode="L2WS"|"L2A"|"L2CA"|"Auto", warmstart_type="cholesky"|"diagonal")`
 - `L2CAConfig(...)` for dual-loss weights and certify/repair settings
+
+Backward compatibility note:
+- The older name `L2WSSolver` is still available as an alias, but `SuperSDP` is the primary public class name.
 
 L2CA configuration note:
 - With `tier_auto=True` (the default), the shared L2CA inference path uses the cached robust anchor plus structural tier logic, so `anchor_mode` is effectively inactive.
